@@ -1,5 +1,5 @@
 """
-flask 第一版
+flask 第2版
 """
 
 from flask import Flask, request, abort
