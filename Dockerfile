@@ -1,5 +1,5 @@
 # load default image
-FROM python:3.6
+FROM python:3.13
 
 # add project
 COPY ./web /app/
@@ -8,7 +8,7 @@ WORKDIR /app
 # install flask
 RUN pip install -r requirements.txt
 
-# run flask
+# run flask1
 #ENTRYPOINT ["python"]
 #CMD ["test_flask.py"]
 
